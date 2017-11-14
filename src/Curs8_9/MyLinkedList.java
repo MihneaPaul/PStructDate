@@ -145,8 +145,4 @@ public class MyLinkedList {
 
     }
 
-    public class Node {
-        private int elem;
-        private Node urm;
-    }
 }
