@@ -1,6 +1,6 @@
 package Curs11;
 
-public interface MyQueue<T> {
+public interface Queue<T> {
 
     public void enqueue(T e);
     public void dequeue();

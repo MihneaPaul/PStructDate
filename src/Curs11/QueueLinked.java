@@ -1,8 +1,6 @@
 package Curs11;
 
-import Curs8_9.Node;
-
-public class QueueLinked<T> implements MyQueue<T> {
+public class QueueLinked<T> implements Queue<T> {
     private Node<T> front; // primu care intra si primul sters
     private Node<T> back; // cel care intra in coada
 

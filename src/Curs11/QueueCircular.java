@@ -1,6 +1,6 @@
 package Curs11;
 
-public class QueueCircular implements MyQueue<Integer> {
+public class QueueCircular implements Queue<Integer> {
     private int capacity;
     private int front;
     private int end;
